@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="czd.mobistudi.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -20,9 +20,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="github.hellocsl.ucmainpager.MainActivity">
-        </activity>
+        <activity
+            android:name="czd.mobistudi.MobarActivity"
+            android:label="Mobar"
+            android:theme="@style/AppTheme.NoActionBar" />
 
     </application>
-
 </manifest>
