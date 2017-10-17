@@ -1,5 +1,4 @@
-package czd.mobistudi;
-
+package czd.mobistudi.activity;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -16,6 +15,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
+
+import czd.mobistudi.R;
+import czd.mobistudi.fragment.MobarFragment;
 
 
 public class MainActivity extends AppCompatActivity
@@ -124,7 +126,7 @@ public class MainActivity extends AppCompatActivity
 //                    replaceFragment(new Home_fragment());
                     return true;
                 case R.id.navigation_hot:
-                    replaceFragment(new Hot_fragment());
+                    replaceFragment(new MobarFragment());
                     return true;
                 case R.id.navigation_course:
 //                    replaceFragment(new SeriesFragment());
