@@ -1,5 +1,6 @@
 package czd.mobistudi.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -128,7 +129,7 @@ public class MainActivity extends AppCompatActivity
                     replaceFragment(new MobarFragment());
                     return true;
                 case R.id.navigation_course:
-//                    replaceFragment(new SeriesFragment());
+//                    replaceFragment(new MobarFragment());
                     return true;
                 case R.id.navigation_me:
 //                    replaceFragment(new MeFragment());
