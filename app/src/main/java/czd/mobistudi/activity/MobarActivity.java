@@ -15,6 +15,7 @@ import com.github.florent37.materialviewpager.MaterialViewPager;
 import com.github.florent37.materialviewpager.header.HeaderDesign;
 
 import czd.mobistudi.R;
+import czd.mobistudi.fragment.FirstRecyclerViewFragment;
 import czd.mobistudi.fragment.RecyclerViewFragment;
 
 /**
@@ -49,10 +50,10 @@ public class MobarActivity extends AppCompatActivity {
             @Override
             public Fragment getItem(int position) {
                 switch (position % 4) {
-                    //case 0:
-                    //    return RecyclerViewFragment.newInstance();
+                    case 0:
+                        return FirstRecyclerViewFragment.newInstance();
                     //case 1:
-                    //    return RecyclerViewFragment.newInstance();
+                    //    return FirstRecyclerViewFragment.newInstance();
                     //case 2:
                     //    return WebViewFragment.newInstance();
                     default:
@@ -122,7 +123,7 @@ public class MobarActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     mViewPager.notifyHeaderChanged();
-                    Toast.makeText(getApplicationContext(), "Yes, the title is clickable", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "The title is clickable", Toast.LENGTH_SHORT).show();
                 }
             });
         }

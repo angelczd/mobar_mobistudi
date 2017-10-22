@@ -23,7 +23,12 @@
         <activity
             android:name="czd.mobistudi.activity.MobarActivity"
             android:theme="@style/MobarAppTheme"
-            android:label="Mobar"/>
+            android:label="Mobar">
+        </activity>
+        <activity
+            android:name="czd.mobistudi.activity.BlankActivity"
+            android:label="Blank">
+        </activity>
 
     </application>
 </manifest>
