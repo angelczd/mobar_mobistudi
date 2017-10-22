@@ -31,7 +31,7 @@ public class MobarFragment extends Fragment {
 
         String[] strs = {
                 "The", "Canvas", "class", "holds", "the", "draw", "calls", ".", "To",
-                "draw", "something,", "you", "need", "4 basic", "components","Bitmap",
+                "draw", "something,", "you", "need", "4 basic", "components","Bitmap"
         };
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1, strs);

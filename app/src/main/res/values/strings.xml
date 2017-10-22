@@ -6,9 +6,4 @@
 
     <string name="action_settings">Settings</string>
 
-    <string name="behavior_contents">github.hellocsl.ucmainpager.behavior.uc.UcNewsContentBehavior</string>
-    <string name="behavior_uc_header_pager">github.hellocsl.ucmainpager.behavior.uc.UcNewsHeaderPagerBehavior</string>
-    <string name="behavior_uc_title">github.hellocsl.ucmainpager.behavior.uc.UcNewsTitleBehavior</string>
-    <string name="behavior_uc_news_tab">github.hellocsl.ucmainpager.behavior.uc.UcNewsTabBehavior</string>
-    <string name="long_text">asdasdaasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajasdasdasdajsdaj</string>
 </resources>

@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity
                     replaceFragment(new MobarFragment());
                     return true;
                 case R.id.navigation_course:
-//                    replaceFragment(new MobarFragment());
+                    startActivity(new Intent(MainActivity.this,MobarActivity.class));
                     return true;
                 case R.id.navigation_me:
 //                    replaceFragment(new MeFragment());

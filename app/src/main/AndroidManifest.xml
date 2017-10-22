@@ -22,8 +22,8 @@
 
         <activity
             android:name="czd.mobistudi.activity.MobarActivity"
-            android:label="魔吧"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/MobarAppTheme"
+            android:label="Mobar"/>
 
     </application>
 </manifest>
