@@ -27,7 +27,7 @@ import czd.mobistudi.bean.HotCourse;
 public class FirstRecyclerViewFragment extends Fragment {
 
     private static final boolean GRID_LAYOUT = false;
-    private static final int ITEM_COUNT = 50;
+    private static final int ITEM_COUNT = 30;
 
     private RecyclerView mRecyclerView;
 
@@ -47,7 +47,7 @@ public class FirstRecyclerViewFragment extends Fragment {
 
         initCourses();
 
-        //setup materialviewpager
+        //setup material view pager
         if (GRID_LAYOUT) {
             mRecyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 2));
         } else {
