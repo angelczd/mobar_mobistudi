@@ -27,7 +27,7 @@ public class NewBottomNavigationBehavior extends CoordinatorLayout.Behavior<View
 
     @Override
     public void onNestedPreScroll(CoordinatorLayout coordinatorLayout, View child, View target, int dx, int dy, int[] consumed) {
-        if(dy > 0){//上滑隐藏
+        if(dy < 0){//下滑隐藏
             if(outAnimator == null){
                 outAnimator = ObjectAnimator.ofFloat(child,"translationY",0,child.getHeight());
                 outAnimator.setDuration(200);
@@ -35,7 +35,7 @@ public class NewBottomNavigationBehavior extends CoordinatorLayout.Behavior<View
             if(!outAnimator.isRunning() && child.getTranslationY() <= 0){
                 outAnimator.start();
             }
-        }else if(dy < 0){//下滑显示
+        }else if(dy > 0){//上滑显示
             if(inAnimator == null){
                 inAnimator = ObjectAnimator.ofFloat(child,"translationY",child.getHeight(),0);
                 inAnimator.setDuration(200);

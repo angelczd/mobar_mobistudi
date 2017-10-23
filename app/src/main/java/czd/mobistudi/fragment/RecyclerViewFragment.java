@@ -21,7 +21,7 @@ import czd.mobistudi.adapter.TestRecyclerViewAdapter;
 
 public class RecyclerViewFragment extends Fragment {
 
-    private static final boolean GRID_LAYOUT = false;
+    private static final boolean IS_GRID_LAYOUT = false;
     private static final int ITEM_COUNT = 100;
 
     private RecyclerView mRecyclerView;
@@ -38,7 +38,7 @@ public class RecyclerViewFragment extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        mRecyclerView = (RecyclerView) view.findViewById(R.id.recyclerView);
+        mRecyclerView = (RecyclerView) view.findViewById(R.id.mobar_recycler_view);
 
         final List<Object> items = new ArrayList<>();
 
@@ -49,7 +49,7 @@ public class RecyclerViewFragment extends Fragment {
 
         //setup materialviewpager
 
-        if (GRID_LAYOUT) {
+        if (IS_GRID_LAYOUT) {
             mRecyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 2));
         } else {
             mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
@@ -58,6 +58,6 @@ public class RecyclerViewFragment extends Fragment {
 
         //Use this now
         mRecyclerView.addItemDecoration(new MaterialViewPagerHeaderDecorator());
-        mRecyclerView.setAdapter(new TestRecyclerViewAdapter(items));
+        mRecyclerView.setAdapter(new TestRecyclerViewAdapter(items, IS_GRID_LAYOUT));
     }
 }

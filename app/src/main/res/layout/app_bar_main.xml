@@ -16,8 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways|snap"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
-        <!--app:layout_scrollFlags="scroll|enterAlways|snap"-->
 
     </android.support.design.widget.AppBarLayout>
 
@@ -29,7 +29,7 @@
         android:layout_height="48dp"
         android:layout_gravity="bottom"
         android:background="?android:attr/windowBackground"
-        app:layout_behavior="czd.mobistudi.behavior.BottomNavigationBehavior"
         app:menu="@menu/navigation" />
+        <!--app:layout_behavior="czd.mobistudi.behavior.NewBottomNavigationBehavior"-->
 
 </android.support.design.widget.CoordinatorLayout>

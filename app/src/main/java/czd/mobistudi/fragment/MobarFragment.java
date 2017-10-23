@@ -34,7 +34,7 @@ public class MobarFragment extends Fragment {
                 "draw", "something,", "you", "need", "4 basic", "components","Bitmap"
         };
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1, strs);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(view.getContext(), android.R.layout.simple_list_item_1, strs);
         mList.setAdapter(adapter);
 
         mRefreshLayout.setOnRefreshListener(
@@ -42,14 +42,11 @@ public class MobarFragment extends Fragment {
                     @Override
                     public void refreshing() {
                         // do something when refresh starts
-
                         new Handler().postDelayed(new Runnable() {
                             public void run() {
-                                // do something
                                 mRefreshLayout.finishRefreshing();
                             }
-
-                        }, 3 * 1000);
+                        }, 2000);
                     }
 
                     @Override

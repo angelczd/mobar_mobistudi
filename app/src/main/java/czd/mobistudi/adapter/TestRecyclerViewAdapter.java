@@ -16,18 +16,29 @@ public class TestRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.V
 
     static final int TYPE_HEADER = 0;
     static final int TYPE_CELL = 1;
+    private boolean isGridLayout = false;
 
-    public TestRecyclerViewAdapter(List<Object> contents) {
+    public TestRecyclerViewAdapter(List<Object> contents, boolean isGridLayout) {
         this.contents = contents;
+        this.isGridLayout = isGridLayout;
     }
 
     @Override
     public int getItemViewType(int position) {
-        switch (position) {
-            case 0:
-                return TYPE_HEADER;
-            default:
-                return TYPE_CELL;
+        if(isGridLayout){
+            switch (position) {
+                case 0:case 1:
+                    return TYPE_HEADER;
+                default:
+                    return TYPE_CELL;
+            }
+        }else{
+            switch (position) {
+                case 0:
+                    return TYPE_HEADER;
+                default:
+                    return TYPE_CELL;
+            }
         }
     }
 
