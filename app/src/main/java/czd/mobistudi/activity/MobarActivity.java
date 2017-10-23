@@ -89,22 +89,22 @@ public class MobarActivity extends AppCompatActivity {
                     case 0:
                         return HeaderDesign.fromColorResAndDrawable(
                                 R.color.green,
-                                ResourcesCompat.getDrawable(getResources(),R.drawable.header_pic1_640x400,null)
+                                ResourcesCompat.getDrawable(getResources(),R.drawable.mobaar_header_pic1_640x400,null)
                                 );
                     case 1:
                         return HeaderDesign.fromColorResAndDrawable(
                                 R.color.blue,
-                                ResourcesCompat.getDrawable(getResources(),R.drawable.header_pic2_600x400,null)
+                                ResourcesCompat.getDrawable(getResources(),R.drawable.mobaar_header_pic2_600x400,null)
                                 );
                     case 2:
                         return HeaderDesign.fromColorResAndDrawable(
                                 R.color.cyan,
-                                ResourcesCompat.getDrawable(getResources(),R.drawable.header_pic3_901x750,null)
+                                ResourcesCompat.getDrawable(getResources(),R.drawable.mobaar_header_pic3_901x750,null)
                                 );
                     case 3:
                         return HeaderDesign.fromColorResAndDrawable(
                                 R.color.red,
-                                ResourcesCompat.getDrawable(getResources(),R.drawable.header_pic4_900x700,null)
+                                ResourcesCompat.getDrawable(getResources(),R.drawable.mobaar_header_pic4_900x700,null)
                                 );
                 }
 

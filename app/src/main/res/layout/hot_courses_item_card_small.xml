@@ -24,7 +24,7 @@
         android:layout_marginTop="3dp"
         android:scaleType="centerCrop"
         android:layout_gravity="bottom|end"
-        android:background="@drawable/heart"/>
+        android:background="@drawable/nav_ic_heart"/>
 
     <LinearLayout
         android:layout_width="match_parent"

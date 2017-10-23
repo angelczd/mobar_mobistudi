@@ -83,12 +83,12 @@ public class FirstRecyclerViewFragment extends Fragment {
         }
     }
 
-    private HotCourse[] hotCourses = {new HotCourse("数据结构在生活中的应用", R.drawable.p1), new HotCourse("神奇的蒙特卡洛模拟", R.drawable.p2),
-            new HotCourse("高精度算法", R.drawable.p3), new HotCourse("震惊！这竟然是哈夫曼的真面目", R.drawable.p4),
-            new HotCourse("图论的简要概括", R.drawable.p6), new HotCourse("你了解“队列”吗？", R.drawable.p5),
-            new HotCourse("扑克牌中的有趣问题", R.drawable.p7), new HotCourse("你知道八皇后问题吗？", R.drawable.p8),
-            new HotCourse("马的哈密尔顿问题", R.drawable.p9), new HotCourse("约瑟夫环", R.drawable.p10),
-            new HotCourse("电话号码查询问题", R.drawable.p11),new HotCourse("差分约束系统", R.drawable.p12)};
+    private HotCourse[] hotCourses = {new HotCourse("数据结构在生活中的应用", R.drawable.course_pic_p1), new HotCourse("神奇的蒙特卡洛模拟", R.drawable.course_pic_p2),
+            new HotCourse("高精度算法", R.drawable.course_pic_p3), new HotCourse("震惊！这竟然是哈夫曼的真面目", R.drawable.course_pic_p4),
+            new HotCourse("图论的简要概括", R.drawable.course_pic_p6), new HotCourse("你了解“队列”吗？", R.drawable.course_pic_p5),
+            new HotCourse("扑克牌中的有趣问题", R.drawable.course_pic_p7), new HotCourse("你知道八皇后问题吗？", R.drawable.course_pic_p8),
+            new HotCourse("马的哈密尔顿问题", R.drawable.course_pic_p9), new HotCourse("约瑟夫环", R.drawable.course_pic_p10),
+            new HotCourse("电话号码查询问题", R.drawable.course_pic_p11),new HotCourse("差分约束系统", R.drawable.course_pic_p12)};
 
 
 }
